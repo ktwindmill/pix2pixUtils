@@ -735,7 +735,8 @@ checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
 
 fit(train_dataset, EPOCHS, test_dataset)
 
-generator.save();
+generator.save(/content/drive/MyDrive/checkPoints/savedModel/my_xRay_model);
+generator.save(/content/drive/MyDrive/checkPoints/h5/myXrayModel.h5);
 # If you want to share the TensorBoard results _publicly_ you can upload the logs to [TensorBoard.dev](https://tensorboard.dev/) by copying the following into a code-cell.
 # 
 # Note: This requires a Google account.
